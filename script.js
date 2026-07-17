@@ -49,7 +49,7 @@ flores.forEach((flor,index)=>{
 
                 popup.classList.add("show");
 
-            },5000);
+            },7500);
 
         }
 
