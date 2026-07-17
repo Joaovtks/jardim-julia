@@ -42,8 +42,6 @@ flores.forEach((flor,index)=>{
 
         if(abertas===5){
 
-            setTimeout(()=>{
-
                 popupText.innerHTML=
                 "<h2>🌸 O Jardim Floresceu 🌸</h2><br>Independentemente do futuro, obrigado por tudo o que vivemos. Este jardim foi feito com carinho, porque você marcou uma parte muito importante da minha vida.";
 
