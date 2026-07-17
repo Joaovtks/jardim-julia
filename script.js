@@ -32,19 +32,25 @@ flores.forEach((flor,index)=>{
         flor.style.transform="scale(1.4)";
         flor.style.filter="drop-shadow(0 0 20px gold)";
 
-        popupText.innerHTML=mensagens[index];
-
-        popup.classList.add("show");
-
-        setTimeout(()=>{
-            popup.classList.remove("show");
-        },5000);
 
         if(abertas===5){
 
-                popupText.innerHTML=
-                "<h2>🌸 O Jardim Floresceu 🌸</h2><br>Independentemente do futuro, obrigado por tudo o que vivemos. Este jardim foi feito com carinho, porque você marcou uma parte muito importante da minha vida.";
+            popupText.innerHTML=
+            "<h2>🌸 O Jardim Floresceu 🌸</h2><br>Independentemente do futuro, obrigado por tudo o que vivemos. Este jardim foi feito com carinho, porque você marcou uma parte muito importante da minha vida.";
 
+            popup.classList.add("show");
+
+            // Não fecha a última mensagem
+
+        } else {
+
+            popupText.innerHTML=mensagens[index];
+
+            popup.classList.add("show");
+
+            setTimeout(()=>{
+                popup.classList.remove("show");
+            },5000);
 
         }
 
