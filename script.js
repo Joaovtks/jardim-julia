@@ -38,7 +38,7 @@ flores.forEach((flor,index)=>{
 
         setTimeout(()=>{
             popup.classList.remove("show");
-        },5500);
+        },5000);
 
         if(abertas===5){
 
@@ -47,9 +47,6 @@ flores.forEach((flor,index)=>{
                 popupText.innerHTML=
                 "<h2>🌸 O Jardim Floresceu 🌸</h2><br>Independentemente do futuro, obrigado por tudo o que vivemos. Este jardim foi feito com carinho, porque você marcou uma parte muito importante da minha vida.";
 
-                popup.classList.add("show");
-
-            },7500);
 
         }
 
